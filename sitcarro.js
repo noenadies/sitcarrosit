@@ -61,7 +61,7 @@ console.log(general);
 lemail=getidvalor("idemail");
 lpass=getidvalor("idpass");
 for(var i in general){
-    if(general[i].email==lemail&&general[i].pass==lpass){
+    if(general[i].keymi==lemail&&general[i].pass==lpass){
     
 //varcarlat=parseFloat(general[i].lat);
 //varcarlng=parseFloat(general[i].lng);
